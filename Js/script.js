@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
-    const baseUrl = 'http://localhost:4000/books'; // Backend API URL
+    const baseUrl = 'http://localhost:4000/books'; 
 
     
     document.getElementById('saveButton').addEventListener('click', async () => {
