@@ -77,7 +77,7 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     });
 
-    // Event Listener 3: View All Books (GET)
+    
     document.getElementById('viewButton').addEventListener('click', async () => {
         try {
             const response = await fetch(baseUrl);
