@@ -48,7 +48,7 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     });
 
-    // Event Listener 2: Delete Book (DELETE)
+
     document.getElementById('deleteButton').addEventListener('click', async () => {
         const bookId = document.getElementById('deleteId').value.trim();
 
