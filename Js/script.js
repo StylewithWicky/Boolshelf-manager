@@ -25,7 +25,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 });
                 
             } else {
-                // POST request to add a new book
+               
                 response = await fetch(baseUrl, {
                     method: 'POST',
                     headers: { 'Content-Type': 'application/json' },
