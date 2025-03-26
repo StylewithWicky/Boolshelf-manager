@@ -89,7 +89,7 @@ document.addEventListener('DOMContentLoaded', () => {
             const books = await response.json();
 
             const bookList = document.getElementById('bookList');
-            bookList.innerHTML = ''; // Clear previous list
+            bookList.innerHTML = ''; 
 
             if (books.length === 0) {
                 bookList.innerHTML = '<li>No books found.</li>';
