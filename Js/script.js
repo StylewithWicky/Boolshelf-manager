@@ -17,7 +17,7 @@ document.addEventListener('DOMContentLoaded', () => {
         try {
             let response;
             if (bookId) {
-                // PATCH request to update an existing book
+               
                 const response = await fetch(`http://localhost:4000/books/${bookId}`, {  // Fix: Use "books"
                     method: 'PATCH',
                     headers: { 'Content-Type': 'application/json' },
