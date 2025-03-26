@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', () => {
     const baseUrl = 'http://localhost:4000/books'; // Backend API URL
 
-    // Event Listener 1: Save Book (POST or PATCH)
+    
     document.getElementById('saveButton').addEventListener('click', async () => {
         const bookId = document.getElementById('bookId').value.trim();
         const title = document.getElementById('title').value.trim();
