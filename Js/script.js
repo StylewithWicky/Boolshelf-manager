@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const author = document.getElementById('author').value.trim();
 
         if (!title || !author) {
-            alert("Please enter both title and author!");
+            alert("Please enter both title and author!" );
             return;
         }
 
