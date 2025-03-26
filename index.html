@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bookshelf Manager</title>
+    <link rel="stylesheet" href="CSS/styles.css">
+</head>
+<body>
+    <main>
+        <h1>Bookshelf Manager</h1>
+
+        <!-- Form to Add/Update Books -->
+        <div class="form-container">
+            <h2>Add or Update a Book</h2>
+            <input type="text" id="bookId" placeholder="Enter Book ID (for updates)" />
+            <input type="text" id="title" placeholder="Book Title" required />
+            <input type="text" id="author" placeholder="Author Name" required />
+            <button id="saveButton">Save Book</button>
+        </div>
+
+        <!-- Delete Book -->
+        <div class="delete-container">
+            <h2>Delete a Book</h2>
+            <input type="text" id="deleteId" placeholder="Enter Book ID" />
+            <button id="deleteButton">Delete Book</button>
+        </div>
+
+        <!-- View All Books -->
+        <div class="view-container">
+            <h2>View All Books</h2>
+            <button id="viewButton">View Books</button>
+            <ul id="bookList"></ul>
+        </div>
+
+        <!-- Clear Inputs -->
+        <div class="clear-container">
+            <h2>Clear Inputs</h2>
+            <button id="clearInputs">Clear All Inputs</button>
+        </div>
+    </main>
+    <script src="Js/script.js"></script>
+</body>
+</html>
