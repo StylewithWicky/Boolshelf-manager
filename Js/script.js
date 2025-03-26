@@ -63,6 +63,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 method: 'DELETE'
             });
 
+            
             if (!response.ok) {
                 throw new Error(`HTTP error! Status: ${response.status}`);
             }
