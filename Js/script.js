@@ -57,6 +57,7 @@ document.addEventListener('DOMContentLoaded', () => {
             return;
         }
 
+        
         try {
             const response = await fetch(`${baseUrl}/${bookId}`, {
                 method: 'DELETE'
